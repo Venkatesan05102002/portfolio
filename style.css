@@ -1,0 +1,170 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.head{
+    width: 1000px;
+    height: 300px;
+    background-color:skyblue;
+    margin-left: auto;
+    margin-right: auto;
+    scroll-behavior: smooth;
+}
+.img{
+    float: left;
+    width: 400px;
+    height: 250px;
+}
+.title{ 
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 600px;
+    height: 250px;
+    position: relative;
+    text-align: center;
+    float: right;
+    background-color: rgb(226, 226, 83);
+}
+.port{
+    padding-top: 50px;
+}
+.menu{
+    width: 1000px;
+    height: 50px;
+}
+.menu ul{
+    position: relative;
+    display: block;
+    padding: 0px;
+    margin: 0px;
+
+}
+.menu li{
+    display: inline;
+    padding: 50px;
+
+}
+.menu a{
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.menu a:hover{
+    color: red;
+}
+.footer{
+    width: 1000px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aquamarine;
+
+}
+.sub{float: left;
+    width: 400px;
+    height: 100px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cr{
+    padding-left: 20px;
+}
+
+.social
+{
+    width: 600px;
+    height: 100px;
+    float: right;
+}
+.social ul{
+    position: relative;
+    margin: 30px;
+    padding: 0px;
+    text-align: right;
+    font-size: 36px;
+}
+.social li{
+    position: relative;
+    display: inline;
+    padding: 10px;
+}
+.social a{
+font-size: 36px;
+padding: 20px;
+
+}
+.home{
+    width: 1000px;
+    height: 2200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("3.jpg");
+    background-size:4000px;
+}
+.main {
+    width: 1000px;
+    height: 500px;
+}
+.left{
+    margin-top: 100px;
+    float: left;
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    font-size: 24px;
+    position: relative;
+    z-index: 999;
+}
+.right{
+    float: right;
+    padding-right: 10px;
+    padding-top: 10px;
+
+}
+.profile{
+    border-radius: 50%;
+    filter:drop-shadow(0 0 8px rgb(232, 11, 11));
+}
+
+.about{
+    width: 1000px;
+    height: 200px;
+    display: inline-block;
+    font-size: 24px;
+    margin-left: 30px;
+}
+
+.skill {
+    width: 1000px;
+    padding-left: 10px;
+}
+
+.skill1 {
+    text-align: left;
+    font-size: 24px;
+    color: black;
+}
+.skill2 {
+    text-align: center;
+    font-size: 24px;
+    color: black;
+    padding-right: 30px;
+}
+.skill3 {
+    text-align: right;
+    font-size: 24px;
+    color: black;
+    padding-right: 30px;
+}
+
+.skill1:first-child {
+    font-size: 60px;
+}
+
+.contact {
+    display: inline-block;
+    font-size: 24px;
+    color: black;
+    margin-left: 30px;
+}
